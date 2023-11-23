@@ -1,0 +1,105 @@
+.contenedor_card{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 100px 50px;
+    padding: 20px 50px;
+    
+  }
+
+  .contenedor_card .card_responsive{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 35px 80px black;
+    transition: 0.5s;
+  }
+
+  .contenedor_card .card_responsive:hover{
+    height: 400px;
+  }
+
+  .contenedor_card .card_responsive .imgBx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: black; 
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .contenedor_card .card_responsive:hover .imgBx{
+    top: -50px;
+    scale: 0.75;
+    box-shadow: 0 15px 25px black;
+  }
+
+  .contenedor_card .card_responsive .content{
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+  }
+
+  .contenedor_card .card_responsive:hover .content{
+    top: 150px;
+    height: 250px;
+  }
+  .contenedor_imagen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url(../static/img1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+  }
+
+body {
+    background-image: url('../static/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; /* Color de texto en la imagen de fondo */
+    min-height: 100vh; /* Garantiza que la página se extienda al menos hasta el 100% de la altura del viewport */
+    position: relative;
+}
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el encabezado */
+}
+
+
+.feature-box h3 {
+    font-size: 24px;
+}
+.footer {
+    width: 100%;
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    padding: 10px 0;
+}
+
+.rows_card {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.modal_body {
+    color: black;
+}
+
